@@ -1,8 +1,15 @@
 # js-web-germanmelting
 
-A curated dataset of German, Austrian, and Swiss 3D printing content creators.
+A curated dataset of German, Austrian, and Swiss 3D printing content creators with a modern Vue.js frontend showcase.
 
-## Data Structure
+## 🎯 Features
+
+- **Comprehensive Dataset**: Curated collection of 3D printing content creators from the DACH region
+- **Vue.js Frontend**: Modern, responsive showcase with German flag theming
+- **Multilingual Support**: German/English language switching
+- **Filament Vendors**: Directory of German filament manufacturers
+
+## 📊 Data Structure
 
 The dataset is stored in `data/creators.json` and contains information about content creators focused on 3D printing from the DACH region (Germany, Austria, Switzerland).
 
@@ -21,7 +28,38 @@ Each creator entry contains the following fields:
 - `shopUrl`: Optional URL to the creator's shop (null if not available)
 - `country`: Creator's country (Germany, Austria, or Switzerland)
 
-### Usage
+## 🖥️ Frontend Showcase
+
+A beautiful Vue.js frontend that showcases all creators with:
+
+- German flag-themed design (black, red, gold colors)
+- Responsive layout for all devices
+- Creator cards with social media links and shop buttons
+- German filament vendor directory
+- Language switching between German and English
+
+### Running the Frontend
+
+```bash
+# Install frontend dependencies
+npm run frontend:install
+
+# Start development server
+npm run frontend:dev
+
+# Build for production
+npm run frontend:build
+```
+
+Or navigate to the frontend directory:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+## 📖 Usage
 
 ```javascript
 // Load the dataset
@@ -37,11 +75,7 @@ const germanCreators = creators.filter(creator => creator.country === 'Germany')
 const creator = creators.find(c => c.slug === '3d-druck-tom');
 ```
 
-## Contributing
-
-To add new creators or update existing information, please ensure the JSON structure follows the established schema.
-
-## Examples
+## 🚀 Examples
 
 Run the demo script to see the dataset in action:
 
@@ -57,4 +91,25 @@ You can also validate the JSON structure:
 
 ```bash
 npm run validate
+```
+
+## 🤝 Contributing
+
+To add new creators or update existing information, please ensure the JSON structure follows the established schema.
+
+## 📁 Project Structure
+
+```
+js-web-germanmelting/
+├── data/
+│   └── creators.json          # Main dataset
+├── examples/
+│   └── demo.js               # Usage examples
+├── frontend/                 # Vue.js frontend
+│   ├── src/
+│   │   ├── components/       # Vue components
+│   │   ├── App.vue          # Main app
+│   │   └── main.js          # App entry point
+│   └── public/              # Static assets
+└── package.json             # Project configuration
 ```

@@ -5,7 +5,11 @@
   "main": "data/creators.json",
   "scripts": {
     "demo": "node examples/demo.js",
-    "validate": "node -e \"require('./data/creators.json'); console.log('✅ JSON is valid');\""
+    "validate": "node -e \"require('./data/creators.json'); console.log('✅ JSON is valid');\"",
+    "frontend:dev": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build",
+    "frontend:preview": "cd frontend && npm run preview",
+    "frontend:install": "cd frontend && npm install"
   },
   "keywords": [
     "3d-printing",
@@ -14,7 +18,10 @@
     "germany",
     "austria",
     "switzerland",
-    "dataset"
+    "dataset",
+    "vue",
+    "frontend",
+    "showcase"
   ],
   "author": "tscholze",
   "license": "MIT",
