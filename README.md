@@ -35,7 +35,6 @@ Each creator entry contains the following fields:
   - `tiktok`: TikTok profile URL
   - `instagram`: Instagram profile URL  
   - `youtube`: YouTube channel URL
-- `shopUrl`: Optional URL to the creator's shop (null if not available)
 - `country`: Creator's country (Germany, Austria, or Switzerland)
 
 ## 🖥️ Svelte Frontend Showcase

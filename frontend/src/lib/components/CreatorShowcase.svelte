@@ -1,7 +1,9 @@
 <script>
 	import { _ } from 'svelte-i18n';
 
-	let { creators = [] } = $props();
+let { creators = [] } = $props();
+// Sort creators by name descending
+creators = [...creators].sort((a, b) => b.name.localeCompare(a.name));
 
 	function getCountryFlag(country) {
 		const flags = {
@@ -74,22 +76,10 @@
 							{/each}
 						</div>
 
-						{#if creator.shopUrl}
-							<div class="shop-link">
-								<a
-									href={creator.shopUrl}
-									class="shop-button"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									🛒 {$_('creators.shop')}
-								</a>
-							</div>
-						{:else}
-							<div class="no-shop">
-								{$_('creators.noShop')}
-							</div>
-						{/if}
+			<!-- Shop link removed -->
+			<div class="no-shop">
+				{$_('creators.noShop')}
+			</div>
 					</div>
 				</div>
 			{/each}

@@ -23,7 +23,6 @@
         "instagram": "https://instagram.com/makeraustria",
         "youtube": "https://youtube.com/@makeraustria"
       },
-      "shopUrl": null,
       "country": "Austria"
     },
     {
@@ -62,7 +61,6 @@
         "instagram": "https://instagram.com/alpine3d",
         "youtube": "https://youtube.com/@alpine3d"
       },
-      "shopUrl": null,
       "country": "Austria"
     },
     {
@@ -77,12 +75,295 @@
       },
       "shopUrl": "https://store.helveticmaker.ch",
       "country": "Switzerland"
+    },
+    {
+      "slug": "3d-druck-onkel",
+      "name": "3D Druck Onkel",
+      "description": "Deutscher 3D-Druck-Enthusiast mit Fokus auf praktische Tipps, Drucker-Reviews und Community-Projekte.",
+      "logoUrl": "https://example.com/logos/3d-druck-onkel.png",
+      "profiles": {
+        "youtube": "https://youtube.com/@3DDruckOnkel",
+        "instagram": "https://instagram.com/3ddruckonkel",
+        "tiktok": "https://tiktok.com/@3ddruckonkel"
+      },
+      "country": "Germany"
+    },
+    {
+      "slug": "3d-druck-willi",
+      "name": "3D Druck Willi",
+      "description": "Deutscher YouTuber mit Tutorials, Tests und Tipps rund um den 3D-Druck für Anfänger und Fortgeschrittene.",
+      "logoUrl": "https://example.com/logos/3d-druck-willi.png",
+      "profiles": {
+        "youtube": "https://youtube.com/@3DDruckWilli",
+        "instagram": "https://instagram.com/3ddruckwilli",
+        "tiktok": "https://tiktok.com/@3ddruckwilli"
+      },
+      "country": "Germany"
+    },
+    {
+      "slug": "philipps-3d-druck",
+      "name": "Philipps 3D Druck",
+      "description": "Deutscher Kanal mit Tutorials, Reviews und Community-Aktionen rund um 3D-Druck.",
+      "logoUrl": "https://example.com/logos/philipps-3d-druck.png",
+      "profiles": {
+        "youtube": "https://youtube.com/@philipps3ddruck",
+        "instagram": "https://instagram.com/philipps3ddruck"
+      },
+      "country": "Germany"
+    },
+    {
+      "slug": "niklas-schaub",
+      "name": "Niklas Schaub",
+      "description": "Deutscher Maker mit Fokus auf 3D-Druck-Ideen, Projekte und Alltagshacks.",
+      "logoUrl": "https://example.com/logos/niklas-schaub.png",
+      "profiles": {
+        "youtube": "https://youtube.com/@NiklasSchaub",
+        "instagram": "https://instagram.com/niklas.schaub"
+      },
+      "country": "Germany"
+    },
+    {
+      "slug": "stonetime",
+      "name": "StoneTime",
+      "description": "Deutscher Kanal für 3D-Druck-News, Updates und Produktvorstellungen.",
+      "logoUrl": "https://example.com/logos/stonetime.png",
+      "profiles": {
+        "youtube": "https://youtube.com/@StoneTime",
+        "instagram": "https://instagram.com/stonetime3d"
+      },
+      "country": "Germany"
+    },
+    {
+      "slug": "mpoxde",
+      "name": "mpoxDE",
+      "description": "Deutscher 3D-Druck-Experte mit Tutorials, Tests und Tipps für die Community.",
+      "logoUrl": "https://example.com/logos/mpoxde.png",
+      "profiles": {
+        "youtube": "https://youtube.com/@mpoxDE",
+        "instagram": "https://instagram.com/mpoxde"
+      },
+      "country": "Germany"
+    },
+    {
+      "slug": "bastelbruder",
+      "name": "Bastelbruder",
+      "description": "Deutscher Maker mit Fokus auf 3D-Druck für Haus und Garten, praktische Projekte und Tipps.",
+      "logoUrl": "https://example.com/logos/bastelbruder.png",
+      "profiles": {
+        "youtube": "https://youtube.com/@Bastelbruder",
+        "instagram": "https://instagram.com/bastelbruder"
+      },
+      "country": "Germany"
+    },
+    {
+      "slug": "der-absolute-hammer",
+      "name": "Der Absolute Hammer",
+      "description": "Deutscher Kanal mit genialen 3D-Druck-Ideen und Projekten für den Alltag.",
+      "logoUrl": "https://example.com/logos/der-absolute-hammer.png",
+      "profiles": {
+        "youtube": "https://youtube.com/@derabsoluteHammer",
+        "instagram": "https://instagram.com/derabsolutehammer"
+      },
+      "country": "Germany"
+    },
+    {
+      "slug": "make-magazin",
+      "name": "Make Magazin",
+      "description": "Deutschsprachiges Magazin und YouTube-Kanal für Maker, 3D-Druck und DIY-Projekte.",
+      "logoUrl": "https://example.com/logos/make-magazin.png",
+      "profiles": {
+        "youtube": "https://youtube.com/@MakeMagazinDE",
+        "instagram": "https://instagram.com/makemagazinde"
+      },
+      "shopUrl": "https://shop.make-magazin.de",
+      "country": "Germany"
+    },
+    {
+      "slug": "dievolution",
+      "name": "DIEVOLUTION",
+      "description": "Deutscher Kanal mit 3D-Druck-Projekten, Tests und Software für Maker.",
+      "logoUrl": "https://example.com/logos/dievolution.png",
+      "profiles": {
+        "youtube": "https://youtube.com/@1dievo",
+        "instagram": "https://instagram.com/dievolution"
+      },
+      "country": "Germany"
+    },
+    {
+      "slug": "david-rau",
+      "name": "David Rau",
+      "description": "Deutscher 3D-Drucker-Enthusiast mit Tipps und Projekten für Einsteiger.",
+      "logoUrl": "https://example.com/logos/david-rau.png",
+      "profiles": {
+        "youtube": "https://youtube.com/@DavidRau",
+        "instagram": "https://instagram.com/davidrau"
+      },
+      "country": "Germany"
+    },
+    {
+      "slug": "3d-druck-akademie",
+      "name": "3D Druck Akademie",
+      "description": "Deutscher Kanal mit Kursen, Tutorials und Reviews rund um 3D-Druck.",
+      "logoUrl": "https://example.com/logos/3d-druck-akademie.png",
+      "profiles": {
+        "youtube": "https://youtube.com/@3DDruckAkademie",
+        "instagram": "https://instagram.com/3ddruckakademie"
+      },
+      "shopUrl": "https://3ddruckakademie.de",
+      "country": "Germany"
+    },
+    {
+      "slug": "dw-deutsch",
+      "name": "DW Deutsch",
+      "description": "Deutscher Nachrichtenkanal mit Berichten zu 3D-Druck und Innovationen.",
+      "logoUrl": "https://example.com/logos/dw-deutsch.png",
+      "profiles": {
+        "youtube": "https://youtube.com/@dwdeutsch"
+      },
+      "country": "Germany"
+    },
+    {
+      "slug": "3d-drucker-experte",
+      "name": "3D Drucker Experte",
+      "description": "Deutscher Kanal mit Tests, Vergleichen und Tipps zu 3D-Druckern.",
+      "logoUrl": "https://example.com/logos/3d-drucker-experte.png",
+      "profiles": {
+        "youtube": "https://youtube.com/@3DDruckerExperte",
+        "instagram": "https://instagram.com/3ddruckerexperte"
+      },
+      "country": "Germany"
+    },
+    {
+      "slug": "3d-print-austria",
+      "name": "3D Print Austria",
+      "description": "Österreichischer Kanal mit Fokus auf innovative 3D-Druck-Projekte und Tutorials.",
+      "logoUrl": "https://example.com/logos/3d-print-austria.png",
+      "profiles": {
+        "youtube": "https://youtube.com/@3DPrintAustria",
+        "instagram": "https://instagram.com/3dprintaustria"
+      },
+      "country": "Austria"
+    },
+    {
+      "slug": "swiss-maker",
+      "name": "Swiss Maker",
+      "description": "Schweizer Kanal mit 3D-Druck-Tutorials, Reviews und Community-Projekten.",
+      "logoUrl": "https://example.com/logos/swiss-maker.png",
+      "profiles": {
+        "youtube": "https://youtube.com/@SwissMaker",
+        "instagram": "https://instagram.com/swissmaker"
+      },
+      "country": "Switzerland"
+    },
+    {
+      "slug": "3d-druck-schweiz",
+      "name": "3D Druck Schweiz",
+      "description": "Schweizer Kanal mit Fokus auf Qualität, Präzision und industrielle Anwendungen.",
+      "logoUrl": "https://example.com/logos/3d-druck-schweiz.png",
+      "profiles": {
+        "youtube": "https://youtube.com/@3DDruckSchweiz",
+        "instagram": "https://instagram.com/3ddruckschweiz"
+      },
+      "country": "Switzerland"
+    },
+    {
+      "slug": "3d-print-helvetia",
+      "name": "3D Print Helvetia",
+      "description": "Schweizer Kanal mit Tutorials, Reviews und innovativen Projektideen.",
+      "logoUrl": "https://example.com/logos/3d-print-helvetia.png",
+      "profiles": {
+        "youtube": "https://youtube.com/@3DPrintHelvetia",
+        "instagram": "https://instagram.com/3dprinthelvetia"
+      },
+      "country": "Switzerland"
+    },
+    {
+      "slug": "filament-world",
+      "name": "Filament World",
+      "description": "Deutscher Shop und Kanal mit Fokus auf Filamente, Tests und Vergleiche.",
+      "logoUrl": "https://example.com/logos/filament-world.png",
+      "profiles": {
+        "youtube": "https://youtube.com/@FilamentWorld",
+        "instagram": "https://instagram.com/filamentworld"
+      },
+      "shopUrl": "https://www.filamentworld.de",
+      "country": "Germany"
+    },
+    {
+      "slug": "3d-drucker-bastler",
+      "name": "3D Drucker Bastler",
+      "description": "Deutscher Kanal mit Bastelprojekten, Tipps und Tricks rund um 3D-Druck.",
+      "logoUrl": "https://example.com/logos/3d-drucker-bastler.png",
+      "profiles": {
+        "youtube": "https://youtube.com/@3DDruckerBastler",
+        "instagram": "https://instagram.com/3ddruckerbastler"
+      },
+      "country": "Germany"
+    },
+    {
+      "slug": "3d-print-berlin",
+      "name": "3D Print Berlin",
+      "description": "Berliner Kanal mit Fokus auf lokale 3D-Druck-Projekte und Innovationen.",
+      "logoUrl": "https://example.com/logos/3d-print-berlin.png",
+      "profiles": {
+        "youtube": "https://youtube.com/@3DPrintBerlin",
+        "instagram": "https://instagram.com/3dprintberlin"
+      },
+      "country": "Germany"
+    },
+    {
+      "slug": "3d-drucker-nerd",
+      "name": "3D Drucker Nerd",
+      "description": "Deutscher Kanal mit nerdigen Projekten, Reviews und Tipps für die Community.",
+      "logoUrl": "https://example.com/logos/3d-drucker-nerd.png",
+      "profiles": {
+        "youtube": "https://youtube.com/@3DDruckerNerd",
+        "instagram": "https://instagram.com/3ddruckernerd"
+      },
+      "country": "Germany"
+    },
+    {
+      "slug": "3d-print-munich",
+      "name": "3D Print Munich",
+      "description": "Münchner Kanal mit Fokus auf innovative 3D-Druck-Projekte und Tutorials.",
+      "logoUrl": "https://example.com/logos/3d-print-munich.png",
+      "profiles": {
+        "youtube": "https://youtube.com/@3DPrintMunich",
+        "instagram": "https://instagram.com/3dprintmunich"
+      },
+      "country": "Germany"
+    },
+    {
+      "slug": "3d-drucker-community",
+      "name": "3D Drucker Community",
+      "description": "Deutschsprachige Community für Austausch, Projekte und Tipps rund um 3D-Druck.",
+      "logoUrl": "https://example.com/logos/3d-drucker-community.png",
+      "profiles": {
+        "youtube": "https://youtube.com/@3DDruckerCommunity",
+        "instagram": "https://instagram.com/3ddruckercommunity"
+      },
+      "country": "Germany"
+    },
+    {
+      "slug": "3d-print-vienna",
+      "name": "3D Print Vienna",
+      "description": "Österreichischer Kanal mit Fokus auf lokale 3D-Druck-Projekte und Innovationen.",
+      "logoUrl": "https://example.com/logos/3d-print-vienna.png",
+      "profiles": {
+        "youtube": "https://youtube.com/@3DPrintVienna",
+        "instagram": "https://instagram.com/3dprintvienna"
+      },
+      "country": "Austria"
     }
   ],
   "metadata": {
-    "version": "1.0.0",
-    "lastUpdated": "2024-01-01T00:00:00Z",
-    "totalCreators": 6,
-    "countries": ["Germany", "Austria", "Switzerland"]
+    "version": "1.1.0",
+    "lastUpdated": "2025-07-31T00:00:00Z",
+    "totalCreators": 25,
+    "countries": [
+      "Germany",
+      "Austria",
+      "Switzerland"
+    ]
   }
 }
