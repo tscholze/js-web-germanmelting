@@ -40,3 +40,21 @@ const creator = creators.find(c => c.slug === '3d-druck-tom');
 ## Contributing
 
 To add new creators or update existing information, please ensure the JSON structure follows the established schema.
+
+## Examples
+
+Run the demo script to see the dataset in action:
+
+```bash
+node examples/demo.js
+# or using npm
+npm run demo
+```
+
+This will display all creators grouped by country, show statistics, and demonstrate how to search and filter the data.
+
+You can also validate the JSON structure:
+
+```bash
+npm run validate
+```
