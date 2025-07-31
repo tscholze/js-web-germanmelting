@@ -1,55 +1,38 @@
-# German Melting Frontend
+# sv
 
-A modern Vue.js frontend showcasing German 3D printing content creators from the DACH region (Germany, Austria, Switzerland).
+Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-## Features
+## Creating a project
 
-- 🇩🇪 **German Flag Theming**: Beautiful design using German flag colors (black, red, gold)
-- 📱 **Responsive Design**: Optimized for desktop, tablet, and mobile devices
-- 🌐 **Multilingual**: German/English language support with i18n
-- 🎯 **Creator Showcase**: Displays all creators from `../data/creators.json`
-- 🧵 **Filament Vendors**: Comprehensive list of German filament manufacturers
-- ⚡ **Modern Stack**: Built with Vue 3, Vite, and Vue i18n
+If you're seeing this, you've probably already done this step. Congrats!
 
-## Quick Start
+```sh
+# create a new project in the current directory
+npx sv create
 
-```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
+# create a new project in my-app
+npx sv create my-app
 ```
 
-## Development
+## Developing
 
-The frontend is built with:
-- **Vue 3** with Composition API
-- **Vite** for fast development and building
-- **Vue i18n** for internationalization
-- **Modern CSS** with CSS Grid and Flexbox for responsive layouts
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-## Data Source
+```sh
+npm run dev
 
-The frontend automatically loads creator data from `../data/creators.json` and displays:
-- Creator profiles with avatars, descriptions, and social media links
-- Shop links where available
-- Country flags and grouping
-- German filament vendor information
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
 
-## Theming
+## Building
 
-The design uses German flag colors throughout:
-- Black (`#000000`)
-- Red (`#DD0000`) 
-- Gold (`#FFCE00`)
+To create a production version of your app:
 
-## Browser Support
+```sh
+npm run build
+```
 
-Modern browsers supporting ES2020+ features.
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.

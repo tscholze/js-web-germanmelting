@@ -1,13 +1,23 @@
 # js-web-germanmelting
 
-A curated dataset of German, Austrian, and Swiss 3D printing content creators with a modern Vue.js frontend showcase.
+A curated dataset of German, Austrian, and Swiss 3D printing content creators with a modern Svelte frontend showcase.
 
 ## 🎯 Features
 
 - **Comprehensive Dataset**: Curated collection of 3D printing content creators from the DACH region
-- **Vue.js Frontend**: Modern, responsive showcase with German flag theming
+- **Svelte Frontend**: Modern, responsive showcase with German flag theming
 - **Multilingual Support**: German/English language switching
 - **Filament Vendors**: Directory of German filament manufacturers
+- **Responsive Design**: Optimized for all devices
+- **Static Site Generation**: Fast loading with SvelteKit static adapter
+
+## 📸 Screenshots
+
+### German Version
+![German Frontend](docs/screenshots/frontend-german.png)
+
+### English Version  
+![English Frontend](docs/screenshots/frontend-english.png)
 
 ## 📊 Data Structure
 
@@ -28,15 +38,26 @@ Each creator entry contains the following fields:
 - `shopUrl`: Optional URL to the creator's shop (null if not available)
 - `country`: Creator's country (Germany, Austria, or Switzerland)
 
-## 🖥️ Frontend Showcase
+## 🖥️ Svelte Frontend Showcase
 
-A beautiful Vue.js frontend that showcases all creators with:
+A beautiful Svelte frontend that showcases all creators with:
 
 - German flag-themed design (black, red, gold colors)
 - Responsive layout for all devices
 - Creator cards with social media links and shop buttons
 - German filament vendor directory
 - Language switching between German and English
+- Modern card-based UI with hover effects
+- Static site generation for fast loading
+
+### Key Features
+
+- **German Theming**: German flag colors (black #000, red #DD0000, gold #FFCE00) used throughout
+- **Responsive Design**: Mobile-first approach with grid layouts
+- **Internationalization**: Full German/English support with svelte-i18n
+- **Creator Showcase**: Individual cards with avatars, descriptions, social links
+- **Filament Vendors**: Dedicated section for German filament manufacturers
+- **Modern UI**: Card hover effects, gradients, and smooth transitions
 
 ### Running the Frontend
 
@@ -58,6 +79,18 @@ cd frontend
 npm install
 npm run dev
 ```
+
+## 🚀 Deployment
+
+The frontend is automatically deployed to GitHub Pages using GitHub Actions. The workflow:
+
+1. Builds the Svelte application
+2. Generates static files using SvelteKit adapter-static
+3. Deploys to GitHub Pages
+
+### Live Demo
+
+Visit the live demo at: `https://tscholze.github.io/js-web-germanmelting/`
 
 ## 📖 Usage
 
@@ -105,11 +138,27 @@ js-web-germanmelting/
 │   └── creators.json          # Main dataset
 ├── examples/
 │   └── demo.js               # Usage examples
-├── frontend/                 # Vue.js frontend
+├── frontend/                 # Svelte frontend
 │   ├── src/
-│   │   ├── components/       # Vue components
-│   │   ├── App.vue          # Main app
-│   │   └── main.js          # App entry point
-│   └── public/              # Static assets
+│   │   ├── lib/
+│   │   │   ├── components/   # Svelte components
+│   │   │   └── i18n.js      # Internationalization
+│   │   └── routes/           # SvelteKit routes
+│   ├── static/              # Static assets
+│   └── build/               # Production build
+├── docs/
+│   └── screenshots/         # Frontend screenshots
+├── .github/
+│   └── workflows/
+│       └── deploy.yml       # GitHub Pages deployment
 └── package.json             # Project configuration
 ```
+
+## 🛠️ Technology Stack
+
+- **Frontend**: Svelte 5 + SvelteKit
+- **Styling**: CSS with CSS Variables (German flag theming)
+- **Internationalization**: svelte-i18n
+- **Build**: Vite
+- **Deployment**: GitHub Pages + GitHub Actions
+- **Static Generation**: @sveltejs/adapter-static
