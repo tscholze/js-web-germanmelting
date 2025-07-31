@@ -1,0 +1,25 @@
+{
+  "name": "js-web-germanmelting",
+  "version": "1.0.0",
+  "description": "A curated dataset of German, Austrian, and Swiss 3D printing content creators",
+  "main": "data/creators.json",
+  "scripts": {
+    "demo": "node examples/demo.js",
+    "validate": "node -e \"require('./data/creators.json'); console.log('✅ JSON is valid');\""
+  },
+  "keywords": [
+    "3d-printing",
+    "content-creators",
+    "dach",
+    "germany",
+    "austria",
+    "switzerland",
+    "dataset"
+  ],
+  "author": "tscholze",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tscholze/js-web-germanmelting.git"
+  }
+}
