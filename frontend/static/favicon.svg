@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="germanFlag" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000"/>
+      <stop offset="33.33%" style="stop-color:#000000"/>
+      <stop offset="33.33%" style="stop-color:#DD0000"/>
+      <stop offset="66.66%" style="stop-color:#DD0000"/>
+      <stop offset="66.66%" style="stop-color:#FFCE00"/>
+      <stop offset="100%" style="stop-color:#FFCE00"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="48" fill="url(#germanFlag)" stroke="#333" stroke-width="2"/>
+  <text x="50" y="55" text-anchor="middle" font-size="30" font-weight="bold" fill="#fff">3D</text>
+</svg>
