@@ -75,11 +75,6 @@ creators = [...creators].sort((a, b) => b.name.localeCompare(a.name));
 								</a>
 							{/each}
 						</div>
-
-			<!-- Shop link removed -->
-			<div class="no-shop">
-				{$_('creators.noShop')}
-			</div>
 					</div>
 				</div>
 			{/each}

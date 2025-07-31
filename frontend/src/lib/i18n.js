@@ -10,7 +10,6 @@ const de = {
 		title: 'Unsere Creator',
 		country: 'Land',
 		shop: 'Shop besuchen',
-		noShop: 'Kein Shop verfügbar',
 		socialMedia: 'Social Media'
 	},
 	vendors: {
@@ -37,7 +36,6 @@ const en = {
 		title: 'Our Creators',
 		country: 'Country', 
 		shop: 'Visit Shop',
-		noShop: 'No shop available',
 		socialMedia: 'Social Media'
 	},
 	vendors: {
