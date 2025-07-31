@@ -130,30 +130,6 @@ npm run validate
 
 To add new creators or update existing information, please ensure the JSON structure follows the established schema.
 
-## 📁 Project Structure
-
-```
-js-web-germanmelting/
-├── data/
-│   └── creators.json          # Main dataset
-├── examples/
-│   └── demo.js               # Usage examples
-├── frontend/                 # Svelte frontend
-│   ├── src/
-│   │   ├── lib/
-│   │   │   ├── components/   # Svelte components
-│   │   │   └── i18n.js      # Internationalization
-│   │   └── routes/           # SvelteKit routes
-│   ├── static/              # Static assets
-│   └── build/               # Production build
-├── docs/
-│   └── screenshots/         # Frontend screenshots
-├── .github/
-│   └── workflows/
-│       └── deploy.yml       # GitHub Pages deployment
-└── package.json             # Project configuration
-```
-
 ## 🛠️ Technology Stack
 
 - **Frontend**: Svelte 5 + SvelteKit
